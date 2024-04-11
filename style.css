@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+
+}
+    .marq {
+        /* white-space: nowrap; */
+        background-color: #0e0303;
+        color: white;
+        border: black 5px;
+        /* overflow: hidden; */
+        animation: marquee 5s linear infinite;
+        /* background-color: rgb(149, 41, 24); */
+        padding: 1rem;
+        margin-top: 2rem;
+        font-style: italic;
+        font-size: 0.5in;
+    }
+
+    /* @keyframes marquee {
+        0%   { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    } */
+
+
+
+
+.games{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+img{
+    border-radius: 50%;
+}
+.rock{
+    background-color: rebeccapurple;
+    color: blue;
+    border-radius: 50%;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 10rem;
+    font-size: 0.3in;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    margin-left: 0.9in;
+    gap: 5rem;
+    font-size: 0.3in;
+}
+.res{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(205, 159, 159);
+    display: inline;
+    color: rgb(6, 6, 5);
+    border: 2px;
+    border-radius: 3px;
+    margin-top: 0.3in;
+    padding: 10px;
+    
+}
+.button{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    margin-top: 20px;
+}

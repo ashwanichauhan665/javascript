@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const url = fetch("https://dog.ceo/api/breeds/image/random")
+        console.log(url)
+
+        const getfact = async ()=>{
+            console.log("getting data...")
+            let response = await fetch(url);
+            console.log(response)
+            let data = await response.json();
+            console.log(data);
+        }
+    
+    </script>
+    
+</body>
+</html>
+
+
+

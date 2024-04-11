@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="divs">
+        <p>tHis is para</p>
+    </div>
+<script>
+    let val = '3+5';
+    let val1 = new String('3+6')
+    console.log(val);
+    console.log(val1)
+
+    let arr = [1,2,34,5,6];
+    console.log(arr.indexOf(2))
+    // console.log(arr.charAt(5))
+    let s = " aasthas ";
+    console.log(s.match('a'))
+    console.log(s.search('s'))
+    console.log(s.indexOf('s'))
+    console.log(s.trim())
+    console.log(s.valueOf())
+    let arr2 = arr;
+    arr2[1] = 20
+    console.log(arr)
+
+    let num1 = [...arr]
+    num1[1]= 50;
+    console.log(num1)
+
+    let para = document.createElement('p');
+    para.innerText = "this is another para"
+    document.querySelector('.divs').appendChild(para);
+
+
+</script>
+
+
+</body>
+</html>
